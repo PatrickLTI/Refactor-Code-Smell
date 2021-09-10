@@ -29,7 +29,7 @@ class Employee:
                 self.vacation_days -= FIXED_VACATION_DAYS_PAYOUT
                 print(f"Paying out a holiday. Holidays left: {self.vacation_days}")
             except Exception:
-                # this should never happe
+                # this should never happening
                 pass
         else:
             if self.vacation_days < 1:
